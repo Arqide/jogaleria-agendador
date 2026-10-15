@@ -3,8 +3,28 @@
     "id": "2026-10-15-post-01-bem-vindo",
     "when": "2026-10-15T10:25:00-03:00",
     "type": "image",
-    "files": ["assets/01-joga.jpg"],
+    "files": [
+      "assets/01-joga.jpg"
+    ],
     "caption": "Bem-vindo à Jogaleria. O seu lugar para jogar.\n\nAqui o jogo vira peça de mesa: jogo que a gente desenha, jogo escolhido a dedo e peça impressa em 3D. Tudo conferido à mão antes de sair.\n\nA mesa já está posta. Nos próximos dias você conhece quem joga aqui.\n\n#jogaleria #jogosdetabuleiro #jogosdemesa #boardgames #noitedejogos",
     "nota": "Post 01 do Notion (Postagens). Primeira publicação automática: serve também de teste do agendador."
+  },
+  {
+    "id": "2026-10-15-story-rainha-1",
+    "when": "2026-10-15T11:00:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/seg05-1-rainha.jpg"
+    ],
+    "nota": "Stories Qui 15/10 - Peça da semana: Rainha, quadro 1"
+  },
+  {
+    "id": "2026-10-15-story-rainha-2",
+    "when": "2026-10-15T11:03:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/seg05-2-antes-hoje.jpg"
+    ],
+    "nota": "Stories Qui 15/10 - Peça da semana: Rainha, quadro 2"
   }
 ]
