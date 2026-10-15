@@ -60,6 +60,96 @@
     "nota": "Stories Sex 16/10 - Pro fim de semana, quadro 2"
   },
   {
+    "id": "2026-10-18-story-s1-01-capa",
+    "when": "2026-10-18T18:00:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/story-01-capa.jpg"
+    ],
+    "enabled": false,
+    "nota": "S1 Conheça quem joga aqui, quadro 1/9. DESLIGADO: aguardando aprovação das fichas e do quadro final (TikTok Shop/Shopee)."
+  },
+  {
+    "id": "2026-10-18-story-s1-02-rainha",
+    "when": "2026-10-18T18:02:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/story-02-rainha.jpg"
+    ],
+    "enabled": false,
+    "nota": "S1 Conheça quem joga aqui, quadro 2/9. DESLIGADO: aguardando aprovação das fichas e do quadro final (TikTok Shop/Shopee)."
+  },
+  {
+    "id": "2026-10-18-story-s1-03-rei",
+    "when": "2026-10-18T18:04:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/story-03-rei.jpg"
+    ],
+    "enabled": false,
+    "nota": "S1 Conheça quem joga aqui, quadro 3/9. DESLIGADO: aguardando aprovação das fichas e do quadro final (TikTok Shop/Shopee)."
+  },
+  {
+    "id": "2026-10-18-story-s1-04-peao",
+    "when": "2026-10-18T18:06:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/story-04-peao.jpg"
+    ],
+    "enabled": false,
+    "nota": "S1 Conheça quem joga aqui, quadro 4/9. DESLIGADO: aguardando aprovação das fichas e do quadro final (TikTok Shop/Shopee)."
+  },
+  {
+    "id": "2026-10-18-story-s1-05-bispo",
+    "when": "2026-10-18T18:08:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/story-05-bispo.jpg"
+    ],
+    "enabled": false,
+    "nota": "S1 Conheça quem joga aqui, quadro 5/9. DESLIGADO: aguardando aprovação das fichas e do quadro final (TikTok Shop/Shopee)."
+  },
+  {
+    "id": "2026-10-18-story-s1-06-bispa",
+    "when": "2026-10-18T18:10:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/story-06-bispa.jpg"
+    ],
+    "enabled": false,
+    "nota": "S1 Conheça quem joga aqui, quadro 6/9. DESLIGADO: aguardando aprovação das fichas e do quadro final (TikTok Shop/Shopee)."
+  },
+  {
+    "id": "2026-10-18-story-s1-07-cowboy",
+    "when": "2026-10-18T18:12:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/story-07-cowboy.jpg"
+    ],
+    "enabled": false,
+    "nota": "S1 Conheça quem joga aqui, quadro 7/9. DESLIGADO: aguardando aprovação das fichas e do quadro final (TikTok Shop/Shopee)."
+  },
+  {
+    "id": "2026-10-18-story-s1-08-torre",
+    "when": "2026-10-18T18:14:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/story-08-torre.jpg"
+    ],
+    "enabled": false,
+    "nota": "S1 Conheça quem joga aqui, quadro 8/9. DESLIGADO: aguardando aprovação das fichas e do quadro final (TikTok Shop/Shopee)."
+  },
+  {
+    "id": "2026-10-18-story-s1-09-final",
+    "when": "2026-10-18T18:16:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/story-09-final.jpg"
+    ],
+    "enabled": false,
+    "nota": "S1 Conheça quem joga aqui, quadro 9/9. DESLIGADO: aguardando aprovação das fichas e do quadro final (TikTok Shop/Shopee)."
+  },
+  {
     "id": "2026-10-19-post-03-rainha",
     "when": "2026-10-19T12:00:00-03:00",
     "type": "image",
