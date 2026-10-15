@@ -1,11 +1,10 @@
 [
   {
-    "id": "2026-10-06-post-01-joga",
-    "when": "2026-10-06T08:00:00-03:00",
+    "id": "2026-10-15-post-01-bem-vindo",
+    "when": "2026-10-15T10:25:00-03:00",
     "type": "image",
     "files": ["assets/01-joga.jpg"],
-    "caption": "Bem-vindo à Jogaleria. O seu lugar para jogar.\n\nAqui o jogo vira peça de mesa: jogo que a gente desenha, jogo escolhido a dedo e peça impressa em 3D. Tudo conferido à mão antes de sair.\n\nA mesa já está posta. Nos próximos dias você conhece quem joga aqui.\n\n#jogaleria #jogosdetabuleiro #boardgames #jogodemesa #noitedejogos",
-    "enabled": false,
-    "nota": "Exemplo. Horário e hashtags a confirmar com a Vanessa; enabled=false até a arte estar em assets/."
+    "caption": "Bem-vindo à Jogaleria. O seu lugar para jogar.\n\nAqui o jogo vira peça de mesa: jogo que a gente desenha, jogo escolhido a dedo e peça impressa em 3D. Tudo conferido à mão antes de sair.\n\nA mesa já está posta. Nos próximos dias você conhece quem joga aqui.\n\n#jogaleria #jogosdetabuleiro #jogosdemesa #boardgames #noitedejogos",
+    "nota": "Post 01 do Notion (Postagens). Primeira publicação automática: serve também de teste do agendador."
   }
 ]
