@@ -26,5 +26,117 @@
       "assets/seg05-2-antes-hoje.jpg"
     ],
     "nota": "Stories Qui 15/10 - Peça da semana: Rainha, quadro 2"
+  },
+  {
+    "id": "2026-10-16-carrossel-02-tres-jeitos",
+    "when": "2026-10-16T12:00:00-03:00",
+    "type": "carousel",
+    "files": [
+      "assets/02-1-capa.jpg",
+      "assets/02-2-autoral.jpg",
+      "assets/02-3-catalogo.jpg",
+      "assets/02-4-em-3d.jpg",
+      "assets/02-5-pergunta.jpg"
+    ],
+    "caption": "Na Jogaleria cabem três jeitos de jogar.\n\nAutoral: desenhado por nós. De catálogo: escolhido a dedo, de quem já faz jogo bom há décadas. Em 3D: impresso e montado à mão.\n\nQual é o seu primeiro? Conta aqui.\n\n#jogaleria #jogosdetabuleiro #jogosdemesa #boardgames #noitedejogos #jogoautoral #impressao3d",
+    "nota": "Carrossel 02 (Notion). Slides 3 e 4 ainda são ilustração; trocar por foto real se quiserem."
+  },
+  {
+    "id": "2026-10-16-stories-fds-1",
+    "when": "2026-10-16T18:00:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/sex09-1-fim-de-semana.jpg"
+    ],
+    "nota": "Stories Sex 16/10 - Pro fim de semana, quadro 1"
+  },
+  {
+    "id": "2026-10-16-stories-fds-2",
+    "when": "2026-10-16T18:03:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/sex09-2-emprearim.jpg"
+    ],
+    "nota": "Stories Sex 16/10 - Pro fim de semana, quadro 2"
+  },
+  {
+    "id": "2026-10-19-post-03-rainha",
+    "when": "2026-10-19T12:00:00-03:00",
+    "type": "image",
+    "files": [
+      "assets/03-rainha.jpg"
+    ],
+    "caption": "Ela cuida do gosto da casa. Se um jogo entra na galeria, passou pelo olhar dela.\n\nPouca conversa, muito critério.\n\nRainha, a curadora. Quem está ao lado dela? Quarta você conhece: o Rei.\n\n#jogaleria #jogosdetabuleiro #jogosdemesa #boardgames #noitedejogos #xadrez #rainha",
+    "nota": "Post 03 (Notion). Legenda original dizia \"Dia 14\"; ajustado para \"Quarta\" porque o Rei foi para 21/10."
+  },
+  {
+    "id": "2026-10-19-stories-mito-1",
+    "when": "2026-10-19T18:00:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/qua07-1-mito.jpg"
+    ],
+    "nota": "Stories Seg 19/10 - Mito ou verdade, quadro 1"
+  },
+  {
+    "id": "2026-10-19-stories-mito-2",
+    "when": "2026-10-19T18:03:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/qua07-2-verdade.jpg"
+    ],
+    "nota": "Stories Seg 19/10 - Mito ou verdade, quadro 2 (resposta)"
+  },
+  {
+    "id": "2026-10-20-carrossel-04-emprearim",
+    "when": "2026-10-20T12:00:00-03:00",
+    "type": "carousel",
+    "files": [
+      "assets/04-1-capa.jpg",
+      "assets/04-2-monstros.jpg",
+      "assets/04-3-mundo.jpg",
+      "assets/04-4-como-jogar.jpg",
+      "assets/04-5-comprar.jpg"
+    ],
+    "caption": "Emprearim nasceu na nossa mesa e foi para o papel.\n\nTodo mundo tem uma ideia guardada. Aqui você tira ela da cabeça, coloca na mesa e defende, mesmo torta, mesmo incompleta, mesmo com todo mundo rindo.\n\nDe 2 a 6 jogadores, de 30 a 60 minutos, para 14 anos ou mais. Cada caixa é conferida à mão antes de sair.\n\nEstá no Mercado Livre. Link na bio.\n\nQual ideia você defenderia até o fim?\n\n#jogaleria #jogosdetabuleiro #jogosdemesa #boardgames #noitedejogos #emprearim #jogoautoral #empreendedorismo",
+    "nota": "Carrossel 04 (Notion). Monstros confirmados; só Mercado Livre."
+  },
+  {
+    "id": "2026-10-20-stories-peca-1",
+    "when": "2026-10-20T18:00:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/qui08-1-capa.jpg"
+    ],
+    "nota": "Stories Ter 20/10 - Que peça você é?, quadro 1"
+  },
+  {
+    "id": "2026-10-20-stories-peca-2",
+    "when": "2026-10-20T18:03:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/qui08-2-lista.jpg"
+    ],
+    "nota": "Stories Ter 20/10 - Que peça você é?, quadro 2"
+  },
+  {
+    "id": "2026-10-21-post-05-rei",
+    "when": "2026-10-21T12:00:00-03:00",
+    "type": "image",
+    "files": [
+      "assets/05-rei.jpg"
+    ],
+    "caption": "Ele planeja a partida inteira antes de mexer uma peça.\n\nSó fala quando vale a pena, e quando fala, vira regra da casa.\n\nRei, o mestre de mesa. Quando ele e a Rainha discordam, quem você acha que decide?\n\n#jogaleria #jogosdetabuleiro #jogosdemesa #boardgames #noitedejogos #xadrez #rei",
+    "nota": "Post 05 (Notion)."
+  },
+  {
+    "id": "2026-10-22-post-06-peao",
+    "when": "2026-10-22T12:00:00-03:00",
+    "type": "image",
+    "files": [
+      "assets/06-peao.jpg"
+    ],
+    "caption": "Chegou por último e já quer ganhar de todo mundo.\n\nÉ curioso, atrevido e aprende rápido: no xadrez, o peão que chega ao fim do tabuleiro vira qualquer peça.\n\nQuer duvidar? Joga com ele.\n\n#jogaleria #jogosdetabuleiro #jogosdemesa #boardgames #noitedejogos #xadrez #peao",
+    "nota": "Post 06 (Notion)."
   }
 ]
