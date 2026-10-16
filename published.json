@@ -20,8 +20,9 @@
     "publicadoEm": "2026-10-16T15:34:34.378Z"
   },
   "2026-10-16-stories-fds-1": {
-    "tentativas": 1,
-    "erro": "{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,103,246,283,266,871 cannot be found.\",\"fbtrace_id\":\"AZVkBXuvO6rU4Qn1YPBShya\"}"
+    "tentativas": 2,
+    "mediaId": "18117189194081021",
+    "publicadoEm": "2026-10-16T21:06:57.564Z"
   },
   "2026-10-16-stories-fds-2": {
     "tentativas": 1,
