@@ -41,10 +41,20 @@ async function esperarPronto(id, maxSeg) {
   throw new Error('Container não ficou pronto a tempo');
 }
 
-async function criarContainer(params, maxSeg = 90) {
-  const { id } = await api(`${IG_USER_ID}/media`, params);
-  await esperarPronto(id, maxSeg);
-  return id;
+// O Instagram às vezes responde "Media Not Found" (code 24) logo após criar o container; é passageiro, então tenta de novo.
+async function criarContainer(params, maxSeg = 90, tentativa = 1) {
+  try {
+    const { id } = await api(`${IG_USER_ID}/media`, params);
+    await esperarPronto(id, maxSeg);
+    return id;
+  } catch (e) {
+    if (tentativa < 3 && /"code":24|Media Not Found|transient":true/.test(e.message)) {
+      console.warn(`  container falhou (tentativa ${tentativa}), aguardando 20s para tentar de novo`);
+      await sleep(20000);
+      return criarContainer(params, maxSeg, tentativa + 1);
+    }
+    throw e;
+  }
 }
 
 async function publicar(item) {
@@ -97,6 +107,11 @@ for (const item of devidos) {
   } catch (e) {
     st.erro = String(e.message).slice(0, 500);
     console.error(`[erro] ${item.id} (tentativa ${st.tentativas}): ${st.erro}`);
+    mudou = true;
+    save();
+    // Para aqui: os itens seguintes esperam a próxima rodada, para manter a ordem da sequência.
+    console.warn('Parando esta rodada para não publicar fora de ordem.');
+    break;
   }
   mudou = true;
   save();
