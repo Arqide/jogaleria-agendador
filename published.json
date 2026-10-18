@@ -28,5 +28,34 @@
     "tentativas": 1,
     "mediaId": "17914806225468718",
     "publicadoEm": "2026-10-16T21:05:27.244Z"
+  },
+  "2026-10-18-story-s1-01-capa": {
+    "tentativas": 1,
+    "mediaId": "18133259722755103",
+    "publicadoEm": "2026-10-18T13:20:05.743Z"
+  },
+  "2026-10-18-story-s1-02-rainha": {
+    "tentativas": 1,
+    "mediaId": "17917156641264001",
+    "publicadoEm": "2026-10-18T13:20:15.868Z"
+  },
+  "2026-10-18-story-s1-03-rei": {
+    "tentativas": 1,
+    "mediaId": "17880326259627289",
+    "publicadoEm": "2026-10-18T13:20:26.293Z"
+  },
+  "2026-10-18-story-s1-04-peao": {
+    "tentativas": 1,
+    "mediaId": "18238248448316470",
+    "publicadoEm": "2026-10-18T13:20:36.708Z"
+  },
+  "2026-10-18-story-s1-05-bispo": {
+    "tentativas": 1,
+    "mediaId": "18127402651871971",
+    "publicadoEm": "2026-10-18T13:20:48.017Z"
+  },
+  "2026-10-18-story-s1-06-bispa": {
+    "tentativas": 1,
+    "erro": "{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,103,626,182,266,871 cannot be found.\",\"fbtrace_id\":\"AmsG31oumxM-Zh6WKIeRX4L\"}"
   }
 }
