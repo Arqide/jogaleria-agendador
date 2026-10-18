@@ -55,7 +55,23 @@
     "publicadoEm": "2026-10-18T13:20:48.017Z"
   },
   "2026-10-18-story-s1-06-bispa": {
+    "tentativas": 2,
+    "mediaId": "18233353945324864",
+    "publicadoEm": "2026-10-18T16:39:41.725Z"
+  },
+  "2026-10-18-story-s1-07-cowboy": {
     "tentativas": 1,
-    "erro": "{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,103,626,182,266,871 cannot be found.\",\"fbtrace_id\":\"AmsG31oumxM-Zh6WKIeRX4L\"}"
+    "mediaId": "18124643375293922",
+    "publicadoEm": "2026-10-18T16:39:51.680Z"
+  },
+  "2026-10-18-story-s1-08-torre": {
+    "tentativas": 1,
+    "mediaId": "18126480931750988",
+    "publicadoEm": "2026-10-18T16:40:01.760Z"
+  },
+  "2026-10-18-story-s1-09-final": {
+    "tentativas": 1,
+    "mediaId": "18117535366995765",
+    "publicadoEm": "2026-10-18T16:40:11.683Z"
   }
 }
