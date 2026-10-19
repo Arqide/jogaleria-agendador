@@ -1,12 +1,21 @@
 name: Publicar no Instagram
 
+# O cron do GitHub atrasa horas em repositórios pequenos. Por isso cada rodada
+# fica ativa ~5h45 checando a cada 5 min e, ao terminar, dispara a próxima.
+# O cron de 2 em 2 horas é só reserva, caso a corrente quebre.
 on:
   schedule:
-    - cron: '*/15 * * * *'   # a cada 15 minutos (o GitHub pode atrasar alguns minutos)
-  workflow_dispatch:          # botão "Run workflow" para rodar na hora
+    - cron: '7 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      minutos:
+        description: 'Quanto tempo esta rodada fica ativa (min)'
+        default: '345'
+        required: false
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: publicar-instagram
@@ -15,23 +24,34 @@ concurrency:
 jobs:
   publicar:
     runs-on: ubuntu-latest
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Publicar itens que chegaram na hora
+      - name: Publicar em ciclo (checa a cada 5 min)
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
-          PUBLIC_BASE: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}
-        run: node publish.mjs
-      - name: Salvar o que foi publicado
+          PUBLIC_BASE: https://raw.githubusercontent.com/${{ github.repository }}/main
         run: |
-          if [ -n "$(git status --porcelain published.json)" ]; then
-            git config user.name "agendador-jogaleria"
-            git config user.email "agendador@users.noreply.github.com"
-            git add published.json
-            git commit -m "Atualiza published.json"
-            git push
-          fi
+          git config user.name "agendador-jogaleria"
+          git config user.email "agendador@users.noreply.github.com"
+          minutos="${{ github.event.inputs.minutos || '345' }}"
+          fim=$(( $(date +%s) + minutos*60 ))
+          while [ "$(date +%s)" -lt "$fim" ]; do
+            git pull -q --rebase origin main || true
+            node publish.mjs || true
+            if [ -n "$(git status --porcelain published.json)" ]; then
+              git add published.json
+              git commit -qm "Atualiza published.json"
+              git push -q origin HEAD:main || true
+            fi
+            sleep 300
+          done
+      - name: Disparar a próxima rodada
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publish.yml -R "${{ github.repository }}" || echo "não conseguiu disparar; o cron de reserva assume"

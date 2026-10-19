@@ -76,8 +76,22 @@ async function publicar(item) {
   } else {
     throw new Error(`Tipo desconhecido: ${item.type}`);
   }
-  const { id } = await api(`${IG_USER_ID}/media_publish`, { creation_id: container });
-  return id;
+  return publicarContainer(container);
+}
+
+// A publicação também pode falhar com "Media Not Found" (code 24) por atraso do Instagram; tenta de novo antes de desistir.
+async function publicarContainer(container, tentativa = 1) {
+  try {
+    const { id } = await api(`${IG_USER_ID}/media_publish`, { creation_id: container });
+    return id;
+  } catch (e) {
+    if (tentativa < 3 && /"code":24|Media Not Found|transient":true/.test(e.message)) {
+      console.warn(`  publicação falhou (tentativa ${tentativa}), aguardando 20s para tentar de novo`);
+      await sleep(20000);
+      return publicarContainer(container, tentativa + 1);
+    }
+    throw e;
+  }
 }
 
 const agora = Date.now();
