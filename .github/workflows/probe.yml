@@ -1,0 +1,23 @@
+name: Testar arquivo no Instagram (sem publicar)
+
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: 'id do item em schedule.json'
+        required: true
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          PUBLIC_BASE: https://raw.githubusercontent.com/${{ github.repository }}/main
+        run: node publish.mjs --probe "${{ github.event.inputs.id }}"

@@ -94,6 +94,24 @@ async function publicarContainer(container, tentativa = 1) {
   }
 }
 
+// --probe <id>: só prepara o container do item (sem publicar), para testar se o Instagram aceita o arquivo.
+const probeIdx = process.argv.indexOf('--probe');
+if (probeIdx !== -1) {
+  const item = schedule.find((i) => i.id === process.argv[probeIdx + 1]);
+  if (!item) { console.error('item não encontrado'); process.exit(1); }
+  const f = url(item.files[0]);
+  const params = item.type === 'reel' ? { media_type: 'REELS', video_url: f, caption: 'probe' }
+    : item.type === 'story' ? { media_type: 'STORIES', image_url: f } : { image_url: f, caption: 'probe' };
+  try {
+    const id = await criarContainer(params, 600);
+    console.log(`[probe ok] ${item.id}: container ${id} ficou FINISHED (não publicado)`);
+  } catch (e) {
+    console.error(`[probe erro] ${item.id}: ${e.message}`);
+    process.exit(2);
+  }
+  process.exit(0);
+}
+
 const agora = Date.now();
 let mudou = false;
 const devidos = schedule
