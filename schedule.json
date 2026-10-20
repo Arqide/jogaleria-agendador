@@ -201,6 +201,16 @@
     "nota": "Stories Ter 20/10 - Que peça você é?, quadro 2"
   },
   {
+    "id": "2026-10-20-reel-emprearim",
+    "when": "2026-10-20T19:00:00-03:00",
+    "type": "reel",
+    "files": [
+      "assets/emprearim-reels-20-10.mp4"
+    ],
+    "caption": "3 cartas. 1 monstro. 20 segundos pra vender. 👾\n\nEmprearim, o jogo autoral da Jogaleria. 2 a 6 jogadores, 14+. Link na bio.\n\n#jogaleria #emprearim #jogoautoral #jogosdetabuleiro #jogosdemesa #boardgames #noitedejogos",
+    "nota": "Reel do Notion (Jogo: Emprearim, 20/10). Música não entra pela API; só pelo app."
+  },
+  {
     "id": "2026-10-21-post-05-rei",
     "when": "2026-10-21T12:00:00-03:00",
     "type": "image",
