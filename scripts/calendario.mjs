@@ -5,7 +5,7 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 const s = JSON.parse(readFileSync('schedule.json', 'utf8'));
 const pub = existsSync('published.json') ? JSON.parse(readFileSync('published.json', 'utf8')) : {};
 const dias = ['dom', 'seg', 'ter', 'qua', 'qui', 'sex', 'sáb'];
-const tipo = { image: 'Post (imagem)', carousel: 'Carrossel', story: 'Story', reel: 'Reel' };
+const tipo = { image: 'Post (imagem)', carousel: 'Carrossel', story: 'Story', reel: 'Reel', tiktok_rascunho: 'TikTok (rascunho)' };
 const tz = 'America/Sao_Paulo';
 
 let md = `# Calendário do agendador Jogaleria\n\nAtualizado em ${new Date().toLocaleString('pt-BR', { timeZone: tz })} (horário de Brasília)\n\n`;
