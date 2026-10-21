@@ -57,6 +57,59 @@ async function criarContainer(params, maxSeg = 90, tentativa = 1) {
   }
 }
 
+// ---------- TikTok (rascunho na caixa de entrada do app) ----------
+// O token de acesso do TikTok dura 24 h; a cada uso renovamos com o refresh token (365 dias).
+// Se o TikTok devolver um refresh token diferente, só avisa no log (o workflow não grava segredos).
+let ttAccess = null;
+async function tiktokToken() {
+  if (ttAccess) return ttAccess;
+  const { TT_CLIENT_KEY, TT_CLIENT_SECRET, TT_REFRESH_TOKEN } = process.env;
+  if (!(TT_CLIENT_KEY && TT_CLIENT_SECRET && TT_REFRESH_TOKEN)) throw new Error('Faltam os segredos do TikTok (TT_CLIENT_KEY, TT_CLIENT_SECRET, TT_REFRESH_TOKEN)');
+  const res = await fetch('https://open.tiktokapis.com/v2/oauth/token/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({ client_key: TT_CLIENT_KEY, client_secret: TT_CLIENT_SECRET, grant_type: 'refresh_token', refresh_token: TT_REFRESH_TOKEN }),
+  });
+  const j = await res.json();
+  if (!j.access_token) throw new Error(`TikTok token: ${j.error_description || j.error || res.status}`);
+  if (j.refresh_token && j.refresh_token !== TT_REFRESH_TOKEN) console.warn('::warning::O TikTok trocou a chave de renovação. Se os próximos envios falharem, reconectar com scripts/tiktok-conectar.sh');
+  ttAccess = j.access_token;
+  return ttAccess;
+}
+
+async function ttApi(path, body, tok) {
+  const res = await fetch(`https://open.tiktokapis.com/v2/${path}`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${tok}`, 'Content-Type': 'application/json; charset=UTF-8' },
+    body: JSON.stringify(body),
+  });
+  const j = await res.json();
+  if (j.error && j.error.code !== 'ok') throw new Error(`TikTok ${path}: ${JSON.stringify(j.error)}`);
+  return j.data;
+}
+
+// Envia o vídeo (arquivo do repositório) para os rascunhos; a pessoa abre a notificação no app e publica.
+async function publicarTikTokRascunho(item) {
+  const buf = readFileSync(item.files[0]);
+  const size = buf.length;
+  if (size > 64 * 1024 * 1024) throw new Error('Vídeo acima de 64 MB: precisa de envio em partes, ainda não suportado');
+  const tok = await tiktokToken();
+  const init = await ttApi('post/publish/inbox/video/init/', { source_info: { source: 'FILE_UPLOAD', video_size: size, chunk_size: size, total_chunk_count: 1 } }, tok);
+  const put = await fetch(init.upload_url, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'video/mp4', 'Content-Range': `bytes 0-${size - 1}/${size}` },
+    body: buf,
+  });
+  if (!put.ok) throw new Error(`TikTok upload HTTP ${put.status}: ${(await put.text()).slice(0, 200)}`);
+  for (let t = 0; t < 180; t += 10) {
+    const st = await ttApi('post/publish/status/fetch/', { publish_id: init.publish_id }, tok);
+    if (st.status === 'SEND_TO_USER_INBOX' || st.status === 'PUBLISH_COMPLETE') return `tiktok:${init.publish_id}`;
+    if (st.status === 'FAILED') throw new Error(`TikTok recusou o vídeo: ${st.fail_reason}`);
+    await sleep(10000);
+  }
+  return `tiktok:${init.publish_id} (ainda processando)`;
+}
+
 async function publicar(item) {
   const legenda = item.caption || '';
   let container;
@@ -68,6 +121,8 @@ async function publicar(item) {
     container = await criarContainer({ media_type: 'CAROUSEL', children: filhos.join(','), caption: legenda });
   } else if (item.type === 'story') {
     container = await criarContainer({ media_type: 'STORIES', image_url: url(item.files[0]) });
+  } else if (item.type === 'tiktok_rascunho') {
+    return publicarTikTokRascunho(item);
   } else if (item.type === 'reel') {
     container = await criarContainer(
       { media_type: 'REELS', video_url: url(item.files[0]), caption: legenda, share_to_feed: 'true' },
@@ -119,7 +174,11 @@ const devidos = schedule
   .filter((i) => Date.parse(i.when) <= agora)
   .sort((a, b) => Date.parse(a.when) - Date.parse(b.when));
 
+// Cada canal mantém a própria ordem: uma falha no TikTok não segura o Instagram, e vice-versa.
+const canal = (i) => (i.type.startsWith('tiktok') ? 'tiktok' : 'instagram');
+const travados = new Set();
 for (const item of devidos) {
+  if (travados.has(canal(item))) continue;
   const atrasoH = (agora - Date.parse(item.when)) / 3.6e6;
   const st = (state[item.id] ||= { tentativas: 0 });
   if (atrasoH > MAX_ATRASO_H) {
@@ -141,9 +200,10 @@ for (const item of devidos) {
     console.error(`[erro] ${item.id} (tentativa ${st.tentativas}): ${st.erro}`);
     mudou = true;
     save();
-    // Para aqui: os itens seguintes esperam a próxima rodada, para manter a ordem da sequência.
-    console.warn('Parando esta rodada para não publicar fora de ordem.');
-    break;
+    // Os itens seguintes do mesmo canal esperam a próxima rodada, para manter a ordem da sequência.
+    console.warn(`Segurando o resto do ${canal(item)} nesta rodada para não publicar fora de ordem.`);
+    travados.add(canal(item));
+    continue;
   }
   mudou = true;
   save();
