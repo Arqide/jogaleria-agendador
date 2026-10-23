@@ -20,6 +20,20 @@ for (const i of s) {
   md += `| ${dow} ${p.day}/${p.month} | ${p.hour}:${p.minute} | ${tipo[i.type]} | ${i.files.length} | ${st} | ${i.id.replace(/^\d{4}-\d{2}-\d{2}-/, '')} |\n`;
 }
 
+// Próximas do Notion que ainda não estão no agendador (lista salva em notion-proximas.json, só local).
+if (existsSync('notion-proximas.json')) {
+  const prox = JSON.parse(readFileSync('notion-proximas.json', 'utf8'));
+  const ids = new Set(s.map((i) => i.notion).filter(Boolean));
+  md += '\n## Próximas no Notion (ainda não agendadas)\n\n| Dia | Tipo | Canal | Arquivos | Item |\n|---|---|---|---|---|\n';
+  for (const n of prox) {
+    if (ids.has(n.nome)) continue;
+    const dt = new Date(`${n.d}T12:00:00-03:00`);
+    const dow = dias[dt.getUTCDay()];
+    const arq = n.arquivos ? `${n.arquivos} ✅` : 'sem arquivo ⚠️';
+    md += `| ${dow} ${n.d.slice(8, 10)}/${n.d.slice(5, 7)} | ${n.tipo} | ${n.canal} | ${arq} | ${n.nome} |\n`;
+  }
+}
+
 md += '\n## Fora do calendário (falta material ou decisão)\n';
 md += '- Post 07 Torre Esmaga (23/10): legenda com espaço vazio e TikTok Shop não confirmado.\n';
 md += '- Stories de 21, 22, 23 e 25/10: marcados a refazer / aguardam foto.\n';
