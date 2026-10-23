@@ -221,6 +221,16 @@
     "nota": "Post 05 (Notion)."
   },
   {
+    "id": "2026-10-22-post-06-peao",
+    "when": "2026-10-22T12:00:00-03:00",
+    "type": "image",
+    "files": [
+      "assets/06-peao.jpg"
+    ],
+    "caption": "Chegou por último e já quer ganhar de todo mundo.\n\nÉ curioso, atrevido e aprende rápido: no xadrez, o peão que chega ao fim do tabuleiro vira qualquer peça.\n\nQuer duvidar? Joga com ele.\n\n#jogaleria #jogosdetabuleiro #jogosdemesa #boardgames #noitedejogos #xadrez #peao",
+    "nota": "Post 06 (Notion)."
+  },
+  {
     "id": "2026-10-21-tiktok-teste-emprearim",
     "when": "2026-10-22T19:22:33-03:00",
     "type": "tiktok_rascunho",
@@ -231,13 +241,23 @@
     "nota": "TESTE TikTok ligado em 22/10: vai para os rascunhos do app; legenda colada à mão."
   },
   {
-    "id": "2026-10-22-post-06-peao",
-    "when": "2026-10-22T12:00:00-03:00",
-    "type": "image",
+    "id": "2026-10-23-tiktok-perfil-express",
+    "when": "2026-10-23T14:00:00-03:00",
+    "type": "tiktok_rascunho",
     "files": [
-      "assets/06-peao.jpg"
+      "assets/perfil-23-10-tiktok.mp4"
     ],
-    "caption": "Chegou por último e já quer ganhar de todo mundo.\n\nÉ curioso, atrevido e aprende rápido: no xadrez, o peão que chega ao fim do tabuleiro vira qualquer peça.\n\nQuer duvidar? Joga com ele.\n\n#jogaleria #jogosdetabuleiro #jogosdemesa #boardgames #noitedejogos #xadrez #peao",
-    "nota": "Post 06 (Notion)."
+    "caption": "Dia de chuva pede Perfil Express. 🌧️ 100 cartas, 20 dicas por carta, de 2 jogadores pra cima. Quem acerta com menos dica ganha mais ponto. Tá no carrinho aqui do vídeo 🛒\n\n#perfilexpress #jogosdetabuleiro #jogosdecartas #diadechuva #jogaleria #fyp",
+    "nota": "Só TikTok. Vídeo v2 (1080p) da página Notion \"Jogo: Perfil\". Ela vincula o produto da loja TikTok Shop no app ao publicar."
+  },
+  {
+    "id": "2026-10-23-tiktok-historias-sinistras",
+    "when": "2026-10-23T16:00:00-03:00",
+    "type": "tiktok_rascunho",
+    "files": [
+      "assets/historias-sinistras-23-10-tiktok.mp4"
+    ],
+    "caption": "Quem aí já brincou de contar história? 👻 Histórias Sinistras: 50 enigmas macabros pra desvendar só com perguntas de sim ou não. O mestre sabe a resposta. Você descobre? Tá no carrinho aqui do vídeo 🛒\n\n#historiassinistras #jogodecartas #enigmas #misterio #jogosdetabuleiro #jogaleria #fyp",
+    "nota": "Só TikTok. Vídeo v2 (1080p) da página Notion \"Jogo: Histórias sinistras\" (página sem legenda; texto feito a partir da fala da Helen). Produto vinculado no app."
   }
 ]
