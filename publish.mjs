@@ -149,6 +149,15 @@ async function publicarContainer(container, tentativa = 1) {
   }
 }
 
+// --probe tiktok-conta: mostra qual conta do TikTok está conectada (nome e usuário; nada sigiloso).
+if (process.argv.includes('--probe') && process.argv[process.argv.indexOf('--probe') + 1] === 'tiktok-conta') {
+  const tok = await tiktokToken();
+  const res = await fetch('https://open.tiktokapis.com/v2/user/info/?fields=open_id,display_name,username', { headers: { Authorization: `Bearer ${tok}` } });
+  const j = await res.json();
+  console.log(`[tiktok conta] nome: ${j.data?.user?.display_name} | usuário: @${j.data?.user?.username ?? '(sem permissão para usuário)'} | erro: ${j.error?.code}`);
+  process.exit(0);
+}
+
 // --probe <id>: só prepara o container do item (sem publicar), para testar se o Instagram aceita o arquivo.
 const probeIdx = process.argv.indexOf('--probe');
 if (probeIdx !== -1) {

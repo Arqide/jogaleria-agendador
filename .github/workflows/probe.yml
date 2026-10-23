@@ -20,4 +20,7 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           PUBLIC_BASE: https://raw.githubusercontent.com/${{ github.repository }}/main
+          TT_CLIENT_KEY: ${{ secrets.TT_CLIENT_KEY }}
+          TT_CLIENT_SECRET: ${{ secrets.TT_CLIENT_SECRET }}
+          TT_REFRESH_TOKEN: ${{ secrets.TT_REFRESH_TOKEN }}
         run: node publish.mjs --probe "${{ github.event.inputs.id }}"
