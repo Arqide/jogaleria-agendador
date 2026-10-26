@@ -318,5 +318,147 @@
       "assets/bis26-5-dica4.jpg"
     ],
     "nota": "Stories Seg 26/10 - Dicas do Bispo, quadro 5/5"
+  },
+  {
+    "id": "2026-10-27-post-09-bispos-indicam",
+    "when": "2026-10-27T12:00:00-03:00",
+    "type": "image",
+    "files": [
+      "assets/09-bispos-indicam.jpg"
+    ],
+    "caption": "O Bispo indica, a Bispa corrige.\n\nJogo da semana: Emprearim, o jogo de começar coisas. Ele se empolgou com a fábrica. Ela lembrou da feira, do trem, da estrada e dos monstros.\n\nNota dela: 10/10. Está no nosso Mercado Livre. Link na bio.\n\n#jogaleria #jogosdetabuleiro #jogosdemesa #boardgames #noitedejogos #emprearim #jogoautoral",
+    "nota": "Post 09 (Notion)."
+  },
+  {
+    "id": "2026-10-28-post-10-cavalo",
+    "when": "2026-10-28T12:00:00-03:00",
+    "type": "image",
+    "files": [
+      "assets/10-cowboy.jpg"
+    ],
+    "caption": "Sabe aquele amigo que resolve em uma frase? É ele.\n\nNo xadrez, o cavalo é o único que salta por cima das outras peças. Aqui, ele salta por cima da indecisão: se você não sabe qual jogo levar, ele diz.\n\nToca a aba do chapéu e pronto.\n\n#jogaleria #jogosdetabuleiro #jogosdemesa #boardgames #noitedejogos #xadrez #cavalo",
+    "nota": "Post 10 (Notion)."
+  },
+  {
+    "id": "2026-10-28-stories-cavalo-1",
+    "when": "2026-10-28T18:00:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/cav28-1-capa.jpg"
+    ],
+    "nota": "Stories Qua 28/10 - Desafio do Cavalo, quadro 1/3"
+  },
+  {
+    "id": "2026-10-28-stories-cavalo-2",
+    "when": "2026-10-28T18:02:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/cav28-2-desafio.jpg"
+    ],
+    "nota": "Stories Qua 28/10 - Desafio do Cavalo, quadro 2/3"
+  },
+  {
+    "id": "2026-10-28-stories-cavalo-3",
+    "when": "2026-10-28T18:04:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/cav28-3-garfo.jpg"
+    ],
+    "nota": "Stories Qua 28/10 - Desafio do Cavalo, quadro 3/3"
+  },
+  {
+    "id": "2026-10-29-carrossel-11-tres-diferencas",
+    "when": "2026-10-29T12:00:00-03:00",
+    "type": "carousel",
+    "files": [
+      "assets/11-1-regras.jpg",
+      "assets/11-2-imagem-a.jpg",
+      "assets/11-3-imagem-b.jpg",
+      "assets/11-4-comente.jpg"
+    ],
+    "caption": "Duas imagens quase iguais. Só 3 coisas mudaram.\n\nAchou? Escreve nos comentários quais são. Os 3 primeiros a acertar ganham uma surpresa da loja.\n\n#jogaleria #jogosdetabuleiro #jogosdemesa #boardgames #noitedejogos #desafio #achaasdiferencas",
+    "nota": "Carrossel 11 (Notion). Prêmio: surpresa da loja, 1 por pessoa, 3 primeiros."
+  },
+  {
+    "id": "2026-10-29-stories-duvido-1",
+    "when": "2026-10-29T18:00:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/29-1-duvido.jpg"
+    ],
+    "nota": "Stories Qui 29/10 - Ache as 3 diferenças: eu duvido, quadro 1/3"
+  },
+  {
+    "id": "2026-10-29-stories-duvido-2",
+    "when": "2026-10-29T18:02:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/29-2-so-quadro.jpg"
+    ],
+    "nota": "Stories Qui 29/10 - Ache as 3 diferenças: eu duvido, quadro 2/3"
+  },
+  {
+    "id": "2026-10-29-stories-duvido-3",
+    "when": "2026-10-29T18:04:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/29-3-so-peao.jpg"
+    ],
+    "nota": "Stories Qui 29/10 - Ache as 3 diferenças: eu duvido, quadro 3/3"
+  },
+  {
+    "id": "2026-10-30-post-12-torre",
+    "when": "2026-10-30T12:00:00-03:00",
+    "type": "image",
+    "files": [
+      "assets/12-torre.jpg"
+    ],
+    "caption": "Já jogou de tudo e ainda explica com paciência.\n\nÉ ela quem confere cada caixa antes de sair e quem responde as dúvidas de regra. No xadrez, a torre protege o rei. Aqui, protege a sua partida.\n\nChega mais. Qual jogo você quer aprender?\n\n#jogaleria #jogosdetabuleiro #jogosdemesa #boardgames #noitedejogos #xadrez #torre",
+    "nota": "Post 12 (Notion)."
+  },
+  {
+    "id": "2026-10-30-stories-torre-1",
+    "when": "2026-10-30T14:00:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/tor30-1-capa.jpg"
+    ],
+    "nota": "Stories Sex 30/10 - 5 coisas sobre a Torre (sexta: antes das 15h), quadro 1/5"
+  },
+  {
+    "id": "2026-10-30-stories-torre-2",
+    "when": "2026-10-30T14:02:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/tor30-2-nome.jpg"
+    ],
+    "nota": "Stories Sex 30/10 - 5 coisas sobre a Torre (sexta: antes das 15h), quadro 2/5"
+  },
+  {
+    "id": "2026-10-30-stories-torre-3",
+    "when": "2026-10-30T14:04:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/tor30-3-roque.jpg"
+    ],
+    "nota": "Stories Sex 30/10 - 5 coisas sobre a Torre (sexta: antes das 15h), quadro 3/5"
+  },
+  {
+    "id": "2026-10-30-stories-torre-4",
+    "when": "2026-10-30T14:06:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/tor30-4-valor.jpg"
+    ],
+    "nota": "Stories Sex 30/10 - 5 coisas sobre a Torre (sexta: antes das 15h), quadro 4/5"
+  },
+  {
+    "id": "2026-10-30-stories-torre-5",
+    "when": "2026-10-30T14:08:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/tor30-5-final.jpg"
+    ],
+    "nota": "Stories Sex 30/10 - 5 coisas sobre a Torre (sexta: antes das 15h), quadro 5/5"
   }
 ]
