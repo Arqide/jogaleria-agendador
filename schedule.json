@@ -259,5 +259,64 @@
     ],
     "caption": "Quem aí já brincou de contar história? 👻 Histórias Sinistras: 50 enigmas macabros pra desvendar só com perguntas de sim ou não. O mestre sabe a resposta. Você descobre? Tá no carrinho aqui do vídeo 🛒\n\n#historiassinistras #jogodecartas #enigmas #misterio #jogosdetabuleiro #jogaleria #fyp",
     "nota": "Só TikTok. Vídeo v2 (1080p) da página Notion \"Jogo: Histórias sinistras\" (página sem legenda; texto feito a partir da fala da Helen). Produto vinculado no app."
+  },
+  {
+    "id": "2026-10-26-carrossel-08-bispos",
+    "when": "2026-10-26T12:00:00-03:00",
+    "type": "carousel",
+    "files": [
+      "assets/08-1-capa.jpg",
+      "assets/08-2-bispo.jpg",
+      "assets/08-3-bispa.jpg",
+      "assets/08-4-discussao.jpg",
+      "assets/08-5-pergunta.jpg"
+    ],
+    "caption": "Ele conta uma história absurda. Ela corrige. Ele insiste. Ela revira os olhos.\n\nNo xadrez, cada bispo anda só na sua cor de casa. Juntos, cobrem o tabuleiro inteiro. Aqui é igual: nenhum acerta sozinho.\n\nQual dos dois você é na mesa? Conta aqui.\n\n#jogaleria #jogosdetabuleiro #jogosdemesa #boardgames #noitedejogos #xadrez #bispo",
+    "nota": "Carrossel 08 (Notion)."
+  },
+  {
+    "id": "2026-10-26-stories-bispo-1",
+    "when": "2026-10-26T18:00:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/bis26-1-capa.jpg"
+    ],
+    "nota": "Stories Seg 26/10 - Dicas do Bispo, quadro 1/5"
+  },
+  {
+    "id": "2026-10-26-stories-bispo-2",
+    "when": "2026-10-26T18:02:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/bis26-2-dica1.jpg"
+    ],
+    "nota": "Stories Seg 26/10 - Dicas do Bispo, quadro 2/5"
+  },
+  {
+    "id": "2026-10-26-stories-bispo-3",
+    "when": "2026-10-26T18:04:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/bis26-3-dica2.jpg"
+    ],
+    "nota": "Stories Seg 26/10 - Dicas do Bispo, quadro 3/5"
+  },
+  {
+    "id": "2026-10-26-stories-bispo-4",
+    "when": "2026-10-26T18:06:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/bis26-4-dica3.jpg"
+    ],
+    "nota": "Stories Seg 26/10 - Dicas do Bispo, quadro 4/5"
+  },
+  {
+    "id": "2026-10-26-stories-bispo-5",
+    "when": "2026-10-26T18:08:00-03:00",
+    "type": "story",
+    "files": [
+      "assets/bis26-5-dica4.jpg"
+    ],
+    "nota": "Stories Seg 26/10 - Dicas do Bispo, quadro 5/5"
   }
 ]
