@@ -35,7 +35,7 @@ if (existsSync('notion-proximas.json')) {
 }
 
 md += '\n## Fora do calendário (falta material ou decisão)\n';
-md += '- Post 07 Torre Esmaga (23/10): legenda com espaço vazio e TikTok Shop não confirmado.\n';
+md += '- Post 07 Torre Esmaga (era 23/10, passou): legenda com espaço vazio e TikTok Shop não confirmado.\n';
 md += '- Stories de 21, 22, 23 e 25/10: marcados a refazer / aguardam foto.\n';
 md += '- Vídeos História 2 e 3: sem arquivo no Notion.\n';
 writeFileSync('CALENDARIO.md', md);
