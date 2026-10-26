@@ -125,7 +125,7 @@ async function publicar(item) {
     return publicarTikTokRascunho(item);
   } else if (item.type === 'reel') {
     container = await criarContainer(
-      { media_type: 'REELS', video_url: url(item.files[0]), caption: legenda, share_to_feed: 'true' },
+      { media_type: 'REELS', video_url: url(item.files[0]), caption: legenda, share_to_feed: 'true', ...(item.cover ? { cover_url: url(item.cover) } : {}) },
       600,
     );
   } else {
