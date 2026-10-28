@@ -193,5 +193,20 @@
     "tentativas": 1,
     "mediaId": "tiktok:v_inbox_file~v2.7701374470011815957",
     "publicadoEm": "2026-10-27T15:49:13.156Z"
+  },
+  "2026-10-28-post-10-cavalo": {
+    "tentativas": 1,
+    "mediaId": "18065383292795589",
+    "publicadoEm": "2026-10-28T15:01:14.139Z"
+  },
+  "2026-10-28-reel-ep1-vendida": {
+    "tentativas": 1,
+    "mediaId": "17893350177684477",
+    "publicadoEm": "2026-10-28T15:01:46.979Z"
+  },
+  "2026-10-28-tiktok-ep1-vendida": {
+    "tentativas": 1,
+    "mediaId": "tiktok:v_inbox_file~v2.7701734024070416404",
+    "publicadoEm": "2026-10-28T15:02:37.111Z"
   }
 }
