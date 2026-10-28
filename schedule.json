@@ -411,6 +411,16 @@
     "nota": "Série A turma da mesa, Ep. 1 Vendida. TikTok: vai para os rascunhos; ela cola a legenda e publica."
   },
   {
+    "id": "2026-10-28-tiktok-ep1-vendida-reenvio",
+    "when": "2026-10-28T13:24:00-03:00",
+    "type": "tiktok_rascunho",
+    "files": [
+      "assets/ep1-vendida-tiktok.mp4"
+    ],
+    "caption": "Toda família tem uma casa onde todo mundo se encontrava pra jogar. A da nossa vovó foi vendida. Mas o Peão já tem um plano… 🎲 Qual era a casa da sua família? (Ep. 1/3)\n\n#aturmadamesa #jogaleria #jogosdetabuleiro #familia #animacao #fyp",
+    "nota": "Reenvio: ela não achou o rascunho das 12h."
+  },
+  {
     "id": "2026-10-28-stories-cavalo-1",
     "when": "2026-10-28T18:00:00-03:00",
     "type": "story",
