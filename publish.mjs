@@ -158,6 +158,18 @@ if (process.argv.includes('--probe') && process.argv[process.argv.indexOf('--pro
   process.exit(0);
 }
 
+// --probe tiktok-status: mostra no log o estado dos últimos envios de rascunho ao TikTok.
+if (process.argv.includes('--probe') && process.argv[process.argv.indexOf('--probe') + 1] === 'tiktok-status') {
+  const tok = await tiktokToken();
+  const ids = Object.entries(state).filter(([, v]) => v.mediaId?.startsWith('tiktok:')).slice(-6);
+  for (const [k, v] of ids) {
+    const pid = v.mediaId.replace(/^tiktok:/, '').split(' ')[0];
+    try { const st = await ttApi('post/publish/status/fetch/', { publish_id: pid }, tok); console.log(`[tiktok status] ${k}: ${JSON.stringify(st)}`); }
+    catch (e) { console.log(`[tiktok status] ${k}: erro ${e.message}`); }
+  }
+  process.exit(0);
+}
+
 // --probe <id>: só prepara o container do item (sem publicar), para testar se o Instagram aceita o arquivo.
 const probeIdx = process.argv.indexOf('--probe');
 if (probeIdx !== -1) {
