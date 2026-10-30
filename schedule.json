@@ -549,6 +549,19 @@
     "nota": "Série A turma da mesa, Ep. 2 A ideia. TikTok: vai para os rascunhos; ela cola a legenda e publica."
   },
   {
+    "id": "2026-10-30-tiktok-ep2-a-ideia-studio",
+    "when": "2026-10-30T12:49:00-03:00",
+    "type": "tiktok_studio",
+    "files": [
+      "assets/ep2-a-ideia-tiktok.mp4"
+    ],
+    "caption": "Sem a casa da vó, a família decidiu fazer o próprio cantinho de jogos. Começou num quarto vazio… e num grupo de mensagem. 🎲 Quem do seu grupo seria o primeiro a responder? (Ep. 2/3)\n\n#aturmadamesa #jogaleria #jogosdetabuleiro #familia #animacao #fyp",
+    "nota": "Publicado direto no TikTok Studio.",
+    "enabled": false,
+    "studio": true,
+    "cover": "assets/capa-ep2-a-ideia.jpg"
+  },
+  {
     "id": "2026-10-30-stories-torre-1",
     "when": "2026-10-30T14:00:00-03:00",
     "type": "story",
@@ -595,13 +608,16 @@
   },
   {
     "id": "2026-11-01-tiktok-ep3-o-plano",
-    "when": "2026-11-01T11:45:00-03:00",
-    "type": "tiktok_rascunho",
+    "when": "2026-11-01T12:00:00-03:00",
+    "type": "tiktok_studio",
     "files": [
       "assets/ep3-o-plano-tiktok.mp4"
     ],
     "caption": "Todo grande plano começa numa mesa de cozinha, com os amigos certos. Foi assim que nasceu a Jogaleria. 🎲 Marca o amigo que você chamaria de sócio. (Ep. 3/3)\n\n#aturmadamesa #jogaleria #jogosdetabuleiro #familia #animacao #fyp",
-    "nota": "Série A turma da mesa, Ep. 3 O plano. TikTok: vai para os rascunhos; ela cola a legenda e publica. Sai 15 min antes do Reel para já estar no app às 12h."
+    "nota": "Programado direto no TikTok Studio (legenda e capa já lá). Não passa pelo agendador.",
+    "enabled": false,
+    "studio": true,
+    "cover": "assets/capa-ep3-o-plano.jpg"
   },
   {
     "id": "2026-11-01-reel-ep3-o-plano",

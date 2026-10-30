@@ -5,7 +5,7 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 const s = JSON.parse(readFileSync('schedule.json', 'utf8'));
 const pub = existsSync('published.json') ? JSON.parse(readFileSync('published.json', 'utf8')) : {};
 const dias = ['dom', 'seg', 'ter', 'qua', 'qui', 'sex', 'sáb'];
-const tipo = { image: 'Post (imagem)', carousel: 'Carrossel', story: 'Story', reel: 'Reel', tiktok_rascunho: 'TikTok (rascunho)' };
+const tipo = { image: 'Post (imagem)', carousel: 'Carrossel', story: 'Story', reel: 'Reel', tiktok_rascunho: 'TikTok (rascunho)', tiktok_studio: 'TikTok (Studio)' };
 const tz = 'America/Sao_Paulo';
 
 let md = `# Calendário do agendador Jogaleria\n\nAtualizado em ${new Date().toLocaleString('pt-BR', { timeZone: tz })} (horário de Brasília)\n\n`;
@@ -16,7 +16,7 @@ for (const i of s) {
   const p = new Intl.DateTimeFormat('pt-BR', { timeZone: tz, day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false })
     .formatToParts(d).reduce((a, x) => ((a[x.type] = x.value), a), {});
   const dow = dias[new Date(d.toLocaleString('en-US', { timeZone: tz })).getDay()];
-  const st = pub[i.id]?.mediaId ? '✅ publicado' : pub[i.id]?.erro ? `⚠️ erro: ${pub[i.id].erro.slice(0, 60)}` : i.enabled === false ? '⏸ desligado' : '🕒 agendado';
+  const st = i.studio ? (Date.parse(i.when) <= Date.now() ? '✅ publicado no TikTok' : '🕒 programado no TikTok') : pub[i.id]?.mediaId ? '✅ publicado' : pub[i.id]?.erro ? `⚠️ erro: ${pub[i.id].erro.slice(0, 60)}` : i.enabled === false ? '⏸ desligado' : '🕒 agendado';
   md += `| ${dow} ${p.day}/${p.month} | ${p.hour}:${p.minute} | ${tipo[i.type]} | ${i.files.length} | ${st} | ${i.id.replace(/^\d{4}-\d{2}-\d{2}-/, '')} |\n`;
 }
 

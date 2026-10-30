@@ -32,6 +32,7 @@ const diaChave = (iso) => { const p = partes(new Date(iso)); return `${p.year}-$
 const hora = (iso) => { const p = partes(new Date(iso)); return `${p.hour}:${p.minute}`; };
 
 function situacao(i) {
+  if (i.studio) return Date.parse(i.when) <= Date.now() ? { k: 'ok', t: 'Publicado no TikTok' } : { k: 'agendado', t: 'Programado no TikTok' };
   const st = pub[i.id];
   if (st?.mediaId) return { k: 'ok', t: i.type === 'tiktok_rascunho' ? 'Enviado ao app' : 'Publicado', quando: st.publicadoEm };
   if (st?.erro?.startsWith('Atrasado')) return { k: 'pulou', t: 'Não saiu (passou da hora)' };
@@ -39,7 +40,7 @@ function situacao(i) {
   if (i.enabled === false) return { k: 'pausa', t: 'Desligado' };
   return { k: 'agendado', t: 'Agendado' };
 }
-const nomeTipo = { image: 'Post', carousel: 'Carrossel', story: 'Stories', reel: 'Reels', tiktok_rascunho: 'TikTok' };
+const nomeTipo = { image: 'Post', carousel: 'Carrossel', story: 'Stories', reel: 'Reels', tiktok_rascunho: 'TikTok (rascunho)', tiktok_studio: 'TikTok' };
 const titulo = (i) => i.id.replace(/^\d{4}-\d{2}-\d{2}-/, '').replace(/^(post|carrossel|reel|tiktok|stories)-/, '').replace(/-\d+$/, '').replace(/-/g, ' ');
 
 // Agrupa stories seguidos do mesmo dia num cartão só.
@@ -52,8 +53,8 @@ for (const i of s) {
   const sit = situacao(i);
   itens.push({
     id: i.id, dia: diaChave(i.when), hora: hora(i.when), when: i.when, tipo: i.type, rotulo: nomeTipo[i.type] || i.type,
-    canal: i.type === 'tiktok_rascunho' ? 'tiktok' : 'instagram', titulo: titulo(i), n: i.files.length,
-    thumbs: (i.type === 'reel' && i.cover ? [i.cover] : i.files).slice(0, 4).map(thumb), legenda: i.caption || '',
+    canal: i.type.startsWith('tiktok') ? 'tiktok' : 'instagram', titulo: titulo(i), n: i.files.length,
+    thumbs: (i.cover ? [i.cover] : i.files).slice(0, 4).map(thumb), legenda: i.caption || '',
     sits: [sit.k], sit, nota: /reenvio|v2$/.test(i.id) ? 'reenvio' : '',
   });
 }
