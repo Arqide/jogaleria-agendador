@@ -594,6 +594,16 @@
     "nota": "Stories Sex 30/10 - 5 coisas sobre a Torre (sexta: antes das 15h), quadro 5/5"
   },
   {
+    "id": "2026-11-01-tiktok-ep3-o-plano",
+    "when": "2026-11-01T11:45:00-03:00",
+    "type": "tiktok_rascunho",
+    "files": [
+      "assets/ep3-o-plano-tiktok.mp4"
+    ],
+    "caption": "Todo grande plano começa numa mesa de cozinha, com os amigos certos. Foi assim que nasceu a Jogaleria. 🎲 Marca o amigo que você chamaria de sócio. (Ep. 3/3)\n\n#aturmadamesa #jogaleria #jogosdetabuleiro #familia #animacao #fyp",
+    "nota": "Série A turma da mesa, Ep. 3 O plano. TikTok: vai para os rascunhos; ela cola a legenda e publica. Sai 15 min antes do Reel para já estar no app às 12h."
+  },
+  {
     "id": "2026-11-01-reel-ep3-o-plano",
     "when": "2026-11-01T12:00:00-03:00",
     "type": "reel",
@@ -603,15 +613,5 @@
     "cover": "assets/capa-ep3-o-plano.jpg",
     "caption": "Todo grande plano começa numa mesa de cozinha, com os amigos certos. Foi assim que nasceu a Jogaleria. 🎲 Marca o amigo que você chamaria de sócio. (Ep. 3/3)\n\n#aturmadamesa #jogaleria #jogosdetabuleiro #familia #animacao",
     "nota": "Série A turma da mesa, Ep. 3 O plano (Notion). Instagram Reels com capa aprovada."
-  },
-  {
-    "id": "2026-11-01-tiktok-ep3-o-plano",
-    "when": "2026-11-01T12:00:30-03:00",
-    "type": "tiktok_rascunho",
-    "files": [
-      "assets/ep3-o-plano-tiktok.mp4"
-    ],
-    "caption": "Todo grande plano começa numa mesa de cozinha, com os amigos certos. Foi assim que nasceu a Jogaleria. 🎲 Marca o amigo que você chamaria de sócio. (Ep. 3/3)\n\n#aturmadamesa #jogaleria #jogosdetabuleiro #familia #animacao #fyp",
-    "nota": "Série A turma da mesa, Ep. 3 O plano. TikTok: vai para os rascunhos; ela cola a legenda e publica."
   }
 ]
