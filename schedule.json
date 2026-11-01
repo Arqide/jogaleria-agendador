@@ -629,5 +629,17 @@
     "cover": "assets/capa-ep3-o-plano.jpg",
     "caption": "Todo grande plano começa numa mesa de cozinha, com os amigos certos. Foi assim que nasceu a Jogaleria. 🎲 Marca o amigo que você chamaria de sócio. (Ep. 3/3)\n\n#aturmadamesa #jogaleria #jogosdetabuleiro #familia #animacao",
     "nota": "Série A turma da mesa, Ep. 3 O plano (Notion). Instagram Reels com capa aprovada."
+  },
+  {
+    "id": "2026-11-02-tiktok-tapa-certo",
+    "when": "2026-11-02T13:00:00-03:00",
+    "type": "tiktok_studio",
+    "enabled": false,
+    "studio": true,
+    "files": [
+      "../Reels-Produto/edicao/tapa-certo/out/tapa-certo-02-11-v2-leve.mp4"
+    ],
+    "caption": "Vira, acha, TAPA. 💙 Tapa Certo do Stitch: cartas quadradas pra virar, redondas pra bater, mãozinhas de plástico. Marca o competitivo da sua casa. Link na bio. #tapacerto #stitch #jogaleria #jogosdetabuleiro #jogodecartas #fyp",
+    "nota": "Programado no TikTok Studio, só TikTok, sem produto: Tapa Certo não está cadastrado na loja."
   }
 ]
