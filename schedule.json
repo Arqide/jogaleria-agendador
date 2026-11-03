@@ -641,5 +641,29 @@
     ],
     "caption": "Vira, acha, TAPA. 💙 Tapa Certo do Stitch: cartas quadradas pra virar, redondas pra bater, mãozinhas de plástico. Marca o competitivo da sua casa. Link na bio. #tapacerto #stitch #jogaleria #jogosdetabuleiro #jogodecartas #fyp",
     "nota": "Programado no TikTok Studio, só TikTok, sem produto: Tapa Certo não está cadastrado na loja."
+  },
+  {
+    "id": "2026-11-03-reel-emprearim",
+    "when": "2026-11-03T12:00:00-03:00",
+    "type": "reel",
+    "files": [
+      "assets/emprearim-03-11.mp4"
+    ],
+    "cover": "assets/capa-emprearim-03-11.jpg",
+    "caption": "Crescemos com pais empreendedores. Aprender era chato. Então a gente criou um jogo. 👾 Emprearim: monta o monstro com 3 cartas, tem 20 segundos pra vender, convence a mesa e corre pro FINISH. 2 a 6 jogadores, 14+. Autoral da Jogaleria, só no Mercado Livre, link na bio.\n\n#emprearim #jogaleria #jogosdetabuleiro #empreendedorismo #jogoautoral",
+    "nota": "Vídeo Emprearim 03/11 (Notion: Jogo Emprearim). Reels com capa do take das 3 cartas."
+  },
+  {
+    "id": "2026-11-03-tiktok-emprearim",
+    "when": "2026-11-03T12:00:00-03:00",
+    "type": "tiktok_studio",
+    "enabled": false,
+    "studio": true,
+    "files": [
+      "../Reels-Produto/edicao/emprearim/out/emprearim-03-11-tiktok.mp4"
+    ],
+    "cover": "assets/capa-emprearim-03-11.jpg",
+    "caption": "Crescemos com pais empreendedores. Aprender era chato. Então a gente criou um jogo. 👾 Emprearim: monta o monstro com 3 cartas, tem 20 segundos pra vender, convence a mesa e corre pro FINISH. 2 a 6 jogadores, 14+. Autoral da Jogaleria, só no Mercado Livre, link na bio. #emprearim #jogaleria #jogosdetabuleiro #empreendedorismo #fyp",
+    "nota": "Programado no TikTok Studio com o produto Emprearim vinculado."
   }
 ]
