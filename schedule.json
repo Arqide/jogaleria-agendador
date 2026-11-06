@@ -720,5 +720,108 @@
       "assets/nov06-s5.jpg"
     ],
     "nota": "Stories Sex 06/11 · Dois jogos novos + fique por dentro, quadro 5/5"
+  },
+  {
+    "id": "2026-11-08-reel-cai-cai-dragao",
+    "when": "2026-11-08T12:00:00-03:00",
+    "type": "reel",
+    "files": [
+      "assets/cai-cai-dragao-nov.mp4"
+    ],
+    "cover": "assets/capa-caicai-nov.jpg",
+    "caption": "Quantos dragões você equilibra? 🐉 Cai Cai Dragão: uma torre que balança e 48 dragõezinhos. Cada um encaixa o seu na vez, e quem derrubar perde. Comenta aí o seu recorde. Link na bio.\n\n#caicaidragao #jogaleria #jogosdetabuleiro #desafio #jogodeequilibrio",
+    "nota": "Vídeo Cai Cai Dragão (era 05/11, não tinha entrado na agenda). Autoral: Instagram e TikTok."
+  },
+  {
+    "id": "2026-11-09-reel-adugo-onca",
+    "when": "2026-11-09T15:00:00-03:00",
+    "type": "reel",
+    "files": [
+      "assets/adugo-onca-nov.mp4"
+    ],
+    "cover": "assets/capa-onca-nov.jpg",
+    "caption": "Quem leva essa partida? 🐆🐕\n\nNo Adugo, o jogo da onça, a disputa é de verdade: 1 onça contra 14 cães.\n\n🐆 A onça salta por cima dos cães e captura. Com 5 capturas, ela vence!\n🐕 Os cães avançam juntos e tentam cercar a onça por completo. Se ela não puder mais se mexer, eles ganham!\n\nPara 2 jogadores, de 15 a 20 minutos, a partir de 14 anos. A embalagem vira o tabuleiro: abra, monte as peças e a partida começa na sua mesa.\n\nVocê joga de onça ou de cães? Conta aqui nos comentários 👇\n\nLink na bio para conhecer o Adugo.\n\n#adugo #jogodetabuleiro #jogodaonca #jogaleria #boardgames #jogosdemesa",
+    "nota": "Adugo · 1 onça contra 14 cães (era 03/11). Só Instagram: no TikTok já saiu em 30/10."
+  },
+  {
+    "id": "2026-11-12-reel-adugo-cowboy",
+    "when": "2026-11-12T15:00:00-03:00",
+    "type": "reel",
+    "files": [
+      "assets/adugo-cowboy-nov.mp4"
+    ],
+    "cover": "assets/capa-cowboy-nov.jpg",
+    "caption": "Adugo, o jogo da onça: jogo de tabuleiro de estratégia para 2 jogadores. 🐆🐕\n\nComo jogar Adugo, em poucas palavras:\n🐆 Uma onça contra 14 cães.\n🐆 A onça salta por cima dos cães e captura. Com 5 capturas, a onça vence.\n🐕 Os cães avançam juntos e tentam cercar a onça por completo. Se ela não puder mais se mexer, os cães vencem.\n\nPor que jogar:\n✅ Jogo de tabuleiro fácil de aprender e difícil de dominar\n✅ Partidas de 15 a 20 minutos, a partir de 14 anos\n✅ A embalagem vira o tabuleiro: abra, monte as peças e jogue em qualquer mesa\n✅ Peças de plástico: 1 onça amarela e 14 cães pretos\n\nVocê joga de onça ou de cães? Conta nos comentários 👇 e marca quem vai ser seu adversário.\n\nLink na bio para conhecer o Adugo e jogar com a gente.\n\n#adugo #jogodaonca #jogodetabuleiro #jogosdetabuleiro #jogodeestrategia #jogopara2 #jogosparadois #comojogar #boardgames #boardgamesbrasil #jogaleria #jogosdemesa #noitedejogos #presentecriativo",
+    "nota": "Adugo · O Cowboy explica (era 05/11)."
+  },
+  {
+    "id": "2026-11-08-tiktok-cai-cai-dragao",
+    "when": "2026-11-08T12:00:00-03:00",
+    "type": "tiktok_studio",
+    "enabled": false,
+    "studio": true,
+    "pendente": true,
+    "files": [
+      "../tiktok-tmp/caicai-tiktok.mp4"
+    ],
+    "cover": "assets/capa-caicai-nov.jpg",
+    "caption": "Quantos dragões você equilibra? 🐉 Cai Cai Dragão: uma torre que balança e 48 dragõezinhos. Cada um encaixa o seu na vez, e quem derrubar perde. Comenta aí o seu recorde. Link na bio. #caicaidragao #jogaleria #desafio #fyp",
+    "nota": "TikTok Studio"
+  },
+  {
+    "id": "2026-11-08-tiktok-barril-pirata",
+    "when": "2026-11-08T14:00:00-03:00",
+    "type": "tiktok_studio",
+    "enabled": false,
+    "studio": true,
+    "pendente": true,
+    "files": [
+      "../tiktok-tmp/barril-tiktok.mp4"
+    ],
+    "cover": "assets/capa-barril-nov.jpg",
+    "caption": "Cabe na palma da mão. 🏴‍☠️ Barril Pirata versão mini, e vem 2 na caixa: um fica em casa, o outro vai na bolsa. Partida de poucos minutos. Link na bio. #barrilpirata #pulapirata #jogaleria #fyp",
+    "nota": "TikTok Studio"
+  },
+  {
+    "id": "2026-11-09-tiktok-color",
+    "when": "2026-11-09T15:00:00-03:00",
+    "type": "tiktok_studio",
+    "enabled": false,
+    "studio": true,
+    "pendente": true,
+    "files": [
+      "../tiktok-tmp/color-tiktok.mp4"
+    ],
+    "cover": "assets/capa-color-nov.jpg",
+    "caption": "Tá escrito ROXO, mas é azul. E agora? 🎨 Color Addict: 110 cartas, de 2 a 6 jogadores, 7+. Todo mundo joga junto, sem vez. Link na bio. #coloraddict #jogodecartas #jogaleria #fyp",
+    "nota": "TikTok Studio"
+  },
+  {
+    "id": "2026-11-10-tiktok-jogo-da-vida",
+    "when": "2026-11-10T15:00:00-03:00",
+    "type": "tiktok_studio",
+    "enabled": false,
+    "studio": true,
+    "pendente": true,
+    "files": [
+      "../tiktok-tmp/vida-tiktok.mp4"
+    ],
+    "cover": "assets/capa-vida-nov.jpg",
+    "caption": "A vida vista de cima. 🎡 Jogo da Vida: roleta, carreira, casamento, filhos no carrinho, sorte e azar. Quem termina com mais dinheiro ganha. 2 a 6 jogadores, 7+. Link na bio. #jogodavida #estrela #jogosdetabuleiro #jogaleria #fyp",
+    "nota": "TikTok Studio"
+  },
+  {
+    "id": "2026-11-12-tiktok-adugo-cowboy",
+    "when": "2026-11-12T15:00:00-03:00",
+    "type": "tiktok_studio",
+    "enabled": false,
+    "studio": true,
+    "pendente": true,
+    "files": [
+      "../tiktok-tmp/cowboy-tiktok.mp4"
+    ],
+    "cover": "assets/capa-cowboy-nov.jpg",
+    "caption": "Adugo, o jogo da onça: 1 onça contra 14 cães. 🐆🐕 Com 5 capturas a onça vence; se os cães cercarem a onça, eles ganham. 2 jogadores, 15 a 20 min, 14+. Você joga de onça ou de cães? Link na bio. #adugo #jogodaonca #jogodetabuleiro #jogaleria #fyp",
+    "nota": "TikTok Studio"
   }
 ]
