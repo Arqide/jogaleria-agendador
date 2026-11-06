@@ -313,5 +313,20 @@
     "tentativas": 1,
     "mediaId": "17941032612404499",
     "publicadoEm": "2026-11-03T15:04:29.879Z"
+  },
+  "2026-11-06-feed-fique-por-dentro": {
+    "tentativas": 1,
+    "mediaId": "18132896230690606",
+    "publicadoEm": "2026-11-06T17:42:31.666Z"
+  },
+  "2026-11-06-stories-1": {
+    "tentativas": 1,
+    "mediaId": "18108235856633153",
+    "publicadoEm": "2026-11-06T17:42:58.811Z"
+  },
+  "2026-11-06-stories-2": {
+    "tentativas": 1,
+    "mediaId": "18229549693326456",
+    "publicadoEm": "2026-11-06T17:43:09.321Z"
   }
 }
