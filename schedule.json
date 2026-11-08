@@ -797,20 +797,6 @@
     "nota": "Vídeo Cai Cai Dragão (era 05/11, não tinha entrado na agenda). Autoral: Instagram e TikTok."
   },
   {
-    "id": "2026-11-08-tiktok-cai-cai-dragao",
-    "when": "2026-11-08T12:00:00-03:00",
-    "type": "tiktok_studio",
-    "enabled": false,
-    "studio": true,
-    "pendente": true,
-    "files": [
-      "../Reels-Produto/edicao/_tiktok/out/caicai-tiktok.mp4"
-    ],
-    "cover": "assets/capa-caicai-nov.jpg",
-    "caption": "Quantos dragões você equilibra? 🐉 Cai Cai Dragão: uma torre que balança e 48 dragõezinhos. Cada um encaixa o seu na vez, e quem derrubar perde. Comenta aí o seu recorde. Link na bio. #caicaidragao #jogaleria #desafio #fyp",
-    "nota": "TikTok Studio"
-  },
-  {
     "id": "2026-11-08-feed-atrasado-03",
     "when": "2026-11-08T12:30:00-03:00",
     "type": "image",
@@ -819,6 +805,19 @@
     ],
     "caption": "No Emprearim, o monstro é você que cria.\n\nVocê tira três cartas: uma Cabeça (o que ele é), um Corpo (como ele funciona) e um Poder (o que só ele sabe fazer). Às vezes sai um dino com mola e hélice. Às vezes sai algo que ninguém sabe nomear. Aí você tem 20 segundos para vender a ideia, e a mesa decide se convenceu.\n\nO Peão adorou. E você, topa o monstro dos seus amigos?\n\nSegue a Jogaleria para ver mais de perto como funciona.\n\n#jogaleria #emprearim #jogodetabuleiro #jogosdetabuleiro #boardgamesbrasil #noitedejogos",
     "nota": "Os monstros do Emprearim (era 03/11, saiu atrasado)"
+  },
+  {
+    "id": "2026-11-08-tiktok-cai-cai-dragao",
+    "when": "2026-11-08T13:05:00-03:00",
+    "type": "tiktok_studio",
+    "enabled": false,
+    "studio": true,
+    "files": [
+      "../Reels-Produto/edicao/_tiktok/out/caicai-tiktok.mp4"
+    ],
+    "cover": "assets/capa-caicai-nov.jpg",
+    "caption": "Quantos dragões você equilibra? 🐉 Cai Cai Dragão: uma torre que balança e 48 dragõezinhos. Cada um encaixa o seu na vez, e quem derrubar perde. Comenta aí o seu recorde. Link na bio. #caicaidragao #jogaleria #desafio #fyp",
+    "nota": "TikTok Studio · publicado às 13h05 (atrasou: Chrome caiu) · Link na bio, produto fora da loja TikTok"
   },
   {
     "id": "2026-11-08-feed-atrasado-04",
@@ -836,13 +835,12 @@
     "type": "tiktok_studio",
     "enabled": false,
     "studio": true,
-    "pendente": true,
     "files": [
       "../Reels-Produto/edicao/_tiktok/out/barril-tiktok.mp4"
     ],
     "cover": "assets/capa-barril-nov.jpg",
-    "caption": "Cabe na palma da mão. 🏴‍☠️ Barril Pirata versão mini, e vem 2 na caixa: um fica em casa, o outro vai na bolsa. Partida de poucos minutos. Link na bio. #barrilpirata #pulapirata #jogaleria #fyp",
-    "nota": "TikTok Studio"
+    "caption": "Cabe na palma da mão. 🏴‍☠️ Barril Pirata versão mini, e vem 2 na caixa: um fica em casa, o outro vai na bolsa. Partida de poucos minutos. Link de compra aqui no vídeo. #barrilpirata #pulapirata #jogaleria #fyp",
+    "nota": "TikTok Studio · agendado com link de compra (Barril Pirata Mini kit com 2)"
   },
   {
     "id": "2026-11-08-feed-atrasado-05",
@@ -881,13 +879,12 @@
     "type": "tiktok_studio",
     "enabled": false,
     "studio": true,
-    "pendente": true,
     "files": [
       "../Reels-Produto/edicao/_tiktok/out/color-tiktok.mp4"
     ],
     "cover": "assets/capa-color-nov.jpg",
-    "caption": "Tá escrito ROXO, mas é azul. E agora? 🎨 Color Addict: 110 cartas, de 2 a 6 jogadores, 7+. Todo mundo joga junto, sem vez. Link na bio. #coloraddict #jogodecartas #jogaleria #fyp",
-    "nota": "TikTok Studio"
+    "caption": "Tá escrito ROXO, mas é azul. E agora? 🎨 Color Addict: 110 cartas, de 2 a 6 jogadores, 7+. Todo mundo joga junto, sem vez. Link de compra aqui no vídeo. #coloraddict #jogodecartas #jogaleria #fyp",
+    "nota": "TikTok Studio · agendado com link de compra (Color Addict Copag)"
   },
   {
     "id": "2026-11-09-stories-1",
@@ -940,13 +937,12 @@
     "type": "tiktok_studio",
     "enabled": false,
     "studio": true,
-    "pendente": true,
     "files": [
       "../Reels-Produto/edicao/_tiktok/out/transito-tiktok.mp4"
     ],
     "cover": "assets/capa-transito-nov.jpg",
-    "caption": "Dá seta, por favor. 🚗 Jogo Trânsito: anda pela cidade, tira a carta e responde o que pode e o que não pode. Com 21 pontos de multa, volta pro começo! Até 4 jogadores, 6+. A criança aprende e o adulto relembra. Link na bio. #jogodetabuleiro #jogotransito #jogoeducativo #jogaleria #fyp",
-    "nota": "Trânsito (Pais & Filhos), só TikTok"
+    "caption": "Dá seta, por favor. 🚗 Jogo Trânsito: anda pela cidade, tira a carta e responde o que pode e o que não pode. Com 21 pontos de multa, volta pro começo! Até 4 jogadores, 6+. A criança aprende e o adulto relembra. Link de compra aqui no vídeo. #jogodetabuleiro #jogotransito #jogoeducativo #jogaleria #fyp",
+    "nota": "TikTok Studio · agendado com link de compra (Jogo Trânsito Pais & Filhos)"
   },
   {
     "id": "2026-11-10-carrossel",
@@ -979,13 +975,12 @@
     "type": "tiktok_studio",
     "enabled": false,
     "studio": true,
-    "pendente": true,
     "files": [
       "../Reels-Produto/edicao/_tiktok/out/adugojogar-tiktok.mp4"
     ],
     "cover": "assets/capa-adugojogar-nov.jpg",
-    "caption": "1 onça contra 14 cães. Em 30 segundos você aprende. 🐆🐕 Adugo, o jogo da onça: estratégia indígena, 2 jogadores, estojo que vira tabuleiro, feito pela Jogaleria. Marca quem prefere ser a onça. Link na bio. #adugo #jogodaonca #comojogar #jogodetabuleiro #jogaleria #fyp",
-    "nota": "TikTok Studio"
+    "caption": "1 onça contra 14 cães. Em 30 segundos você aprende. 🐆🐕 Adugo, o jogo da onça: estratégia indígena, 2 jogadores, estojo que vira tabuleiro, feito pela Jogaleria. Marca quem prefere ser a onça. Link de compra aqui no vídeo. #adugo #jogodaonca #comojogar #jogodetabuleiro #jogaleria #fyp",
+    "nota": "TikTok Studio · agendado com link de compra (Adugo Jogo da Onça)"
   },
   {
     "id": "2026-11-10-tiktok-jogo-da-vida",
@@ -993,13 +988,12 @@
     "type": "tiktok_studio",
     "enabled": false,
     "studio": true,
-    "pendente": true,
     "files": [
       "../Reels-Produto/edicao/_tiktok/out/vida-tiktok.mp4"
     ],
     "cover": "assets/capa-vida-nov.jpg",
-    "caption": "A vida vista de cima. 🎡 Jogo da Vida: roleta, carreira, casamento, filhos no carrinho, sorte e azar. Quem termina com mais dinheiro ganha. 2 a 6 jogadores, 7+. Link na bio. #jogodavida #estrela #jogosdetabuleiro #jogaleria #fyp",
-    "nota": "TikTok Studio"
+    "caption": "A vida vista de cima. 🎡 Jogo da Vida: roleta, carreira, casamento, filhos no carrinho, sorte e azar. Quem termina com mais dinheiro ganha. 2 a 6 jogadores, 7+. Link de compra aqui no vídeo. #jogodavida #estrela #jogosdetabuleiro #jogaleria #fyp",
+    "nota": "TikTok Studio · agendado com link de compra (Jogo da Vida Estrela)"
   },
   {
     "id": "2026-11-10-stories-1",
@@ -1052,13 +1046,12 @@
     "type": "tiktok_studio",
     "enabled": false,
     "studio": true,
-    "pendente": true,
     "files": [
       "../Reels-Produto/edicao/_tiktok/out/kubix-tiktok.mp4"
     ],
     "cover": "assets/capa-kubix-nov.jpg",
     "caption": "Terminar primeiro não adianta se você errou. 😅 Kubix: 2 jogadores, mesmo desenho, ao mesmo tempo, só deslizando as peças. Quem baixa a moldura errado dá o ponto pro adversário. Marca quem é afobado. Link na bio. #kubix #jogodetabuleiro #jogopara2 #jogaleria #fyp",
-    "nota": "Kubix (Polibrinq), só TikTok"
+    "nota": "TikTok Studio · agendado · Link na bio, produto fora da loja TikTok"
   },
   {
     "id": "2026-11-11-feed",
@@ -1142,13 +1135,12 @@
     "type": "tiktok_studio",
     "enabled": false,
     "studio": true,
-    "pendente": true,
     "files": [
       "../Reels-Produto/edicao/_tiktok/out/cowboy-tiktok.mp4"
     ],
     "cover": "assets/capa-cowboy-nov.jpg",
-    "caption": "Adugo, o jogo da onça: 1 onça contra 14 cães. 🐆🐕 Com 5 capturas a onça vence; se os cães cercarem a onça, eles ganham. 2 jogadores, 15 a 20 min, 14+. Você joga de onça ou de cães? Link na bio. #adugo #jogodaonca #jogodetabuleiro #jogaleria #fyp",
-    "nota": "TikTok Studio"
+    "caption": "Adugo, o jogo da onça: 1 onça contra 14 cães. 🐆🐕 Com 5 capturas a onça vence; se os cães cercarem a onça, eles ganham. 2 jogadores, 15 a 20 min, 14+. Você joga de onça ou de cães? Link de compra aqui no vídeo. #adugo #jogodaonca #jogodetabuleiro #jogaleria #fyp",
+    "nota": "TikTok Studio · agendado com link de compra (Adugo Jogo da Onça)"
   },
   {
     "id": "2026-11-12-stories-1",
