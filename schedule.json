@@ -1109,6 +1109,19 @@
     "nota": "Stories · Qua 11/11 · Adugo + loja online · quadro 5/5"
   },
   {
+    "id": "2026-11-11-tiktok-caiu-perdeu",
+    "when": "2026-11-11T19:00:00-03:00",
+    "type": "tiktok_studio",
+    "enabled": false,
+    "studio": true,
+    "files": [
+      "../Reels-Produto/edicao/_tiktok/out/caiuperdeu-tiktok.mp4"
+    ],
+    "cover": "assets/capa-caiuperdeu-nov.jpg",
+    "caption": "O silêncio antes de cair é a melhor parte. 🤫 Caiu Perdeu: 54 blocos de madeira, a partir de 6 anos, sem pilha, sem regra pra decorar. Marca quem sempre derruba. Link de compra aqui no vídeo. #caiuperdeu #torredeequilibrio #jogaleria #fyp",
+    "nota": "Caiu Perdeu (Pais & Filhos), só TikTok, link de compra"
+  },
+  {
     "id": "2026-11-12-feed",
     "when": "2026-11-12T12:00:00-03:00",
     "type": "image",
@@ -1188,6 +1201,19 @@
     "nota": "Stories · Qui 12/11 · Permitar (em breve) + loja online · quadro 5/5"
   },
   {
+    "id": "2026-11-12-tiktok-tetris",
+    "when": "2026-11-12T19:00:00-03:00",
+    "type": "tiktok_studio",
+    "enabled": false,
+    "studio": true,
+    "files": [
+      "../Reels-Produto/edicao/_tiktok/out/tetris-tiktok.mp4"
+    ],
+    "cover": "assets/capa-tetris-nov.jpg",
+    "caption": "Onde você colocaria essa peça? Comenta antes de ver o final. 🧩 Cai Não Cai Tetris: 16 peças, 22 cartas, base que balança, a partir de 3 anos. Marca quem joga Tetris no celular e acha que vai ser fácil. Link de compra aqui no vídeo. #tetris #cainaocai #estrela #jogaleria #fyp",
+    "nota": "Cai Não Cai Tetris (Estrela), só TikTok, link de compra"
+  },
+  {
     "id": "2026-11-13-feed",
     "when": "2026-11-13T12:00:00-03:00",
     "type": "image",
@@ -1205,6 +1231,30 @@
       "assets/nov13-story-1.jpg"
     ],
     "nota": "Stories · Sex 13/11 · Emprearim e Adugo + loja online · quadro 1/5"
+  },
+  {
+    "id": "2026-11-13-reel-torre-esmaga",
+    "when": "2026-11-13T14:00:00-03:00",
+    "type": "reel",
+    "files": [
+      "assets/torre-esmaga-nov.mp4"
+    ],
+    "cover": "assets/capa-torre-nov.jpg",
+    "caption": "Chega de dado rolando pra debaixo da mesa. 🎲\n\nTorre Esmaga: torre de dados impressa aqui na Jogaleria. Você solta o dado em cima, ele desce batendo nas rampas e sai na bandeja, à vista de todo mundo. Ninguém rouba na rolagem.\n\n✅ Recarga automática\n✅ Vem com 2 dados\n✅ Em duas cores\n\nMarca o mestre de RPG da sua mesa. 👇\n\nLink na bio.\n\n#torrededados #rpg #rpgdemesa #dados #impressao3d #jogaleria #jogosdemesa #boardgamesbrasil",
+    "nota": "Torre Esmaga (impressa pela Jogaleria, autoral) · sexta antes das 15h"
+  },
+  {
+    "id": "2026-11-13-tiktok-torre-esmaga",
+    "when": "2026-11-13T14:00:00-03:00",
+    "type": "tiktok_studio",
+    "enabled": false,
+    "studio": true,
+    "files": [
+      "../Reels-Produto/edicao/_tiktok/out/torre-tiktok.mp4"
+    ],
+    "cover": "assets/capa-torre-nov.jpg",
+    "caption": "Chega de dado rolando pra debaixo da mesa. 🎲 Torre Esmaga: impressa aqui na Jogaleria, rolagem à vista de todo mundo e recarga automática. Vem com 2 dados, em duas cores. Marca o mestre de RPG da sua mesa. Link de compra aqui no vídeo. #torrededados #rpg #impressao3d #jogaleria #fyp",
+    "nota": "Torre Esmaga (autoral), link de compra"
   },
   {
     "id": "2026-11-13-stories-2",
@@ -1352,6 +1402,19 @@
     "nota": "Seg 16/11 · Stories: Chegando Permitar · quadro 5/5"
   },
   {
+    "id": "2026-11-16-tiktok-perfil",
+    "when": "2026-11-16T19:00:00-03:00",
+    "type": "tiktok_studio",
+    "enabled": false,
+    "studio": true,
+    "files": [
+      "../Reels-Produto/edicao/_tiktok/out/perfil-tiktok.mp4"
+    ],
+    "cover": "assets/capa-perfil-nov.jpg",
+    "caption": "Acertou em quantas dicas? Comenta sem olhar o final. 🤔 Perfil Express: 100 cartas, 20 dicas por carta, de 2 jogadores pra cima, 12+, caixa que vai na bolsa. Marca quem chuta na primeira dica. Link de compra aqui no vídeo. #perfilexpress #perfil #grow #jogaleria #fyp",
+    "nota": "Perfil Express (Grow), só TikTok, link de compra"
+  },
+  {
     "id": "2026-11-17-feed",
     "when": "2026-11-17T12:00:00-03:00",
     "type": "image",
@@ -1405,6 +1468,19 @@
       "assets/nov17-story-5.jpg"
     ],
     "nota": "Ter 17/11 · Stories: Por que nasceu o Emprearim · quadro 5/5"
+  },
+  {
+    "id": "2026-11-17-tiktok-super-trunfo",
+    "when": "2026-11-17T19:00:00-03:00",
+    "type": "tiktok_studio",
+    "enabled": false,
+    "studio": true,
+    "files": [
+      "../Reels-Produto/edicao/_tiktok/out/supertrunfo-tiktok.mp4"
+    ],
+    "cover": "assets/capa-supertrunfo-nov.jpg",
+    "caption": "Você jogava isso no recreio e sabia os números de cor. 🏎️ Agora são carros do futuro e é tudo no palpite. Super Trunfo: 32 cartas, 2 a 8 jogadores, 7+. Marca quem sempre escolhia \"velocidade\". Link de compra aqui no vídeo. #supertrunfo #grow #jogodecartas #jogaleria #fyp",
+    "nota": "Super Trunfo Carros do Futuro (Grow), só TikTok, link de compra"
   },
   {
     "id": "2026-11-18-feed",
