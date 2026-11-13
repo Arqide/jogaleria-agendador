@@ -548,5 +548,14 @@
     "tentativas": 1,
     "mediaId": "18170577694488458",
     "publicadoEm": "2026-11-13T17:03:32.268Z"
+  },
+  "2026-11-13-stories-3": {
+    "tentativas": 1,
+    "mediaId": "18073305950782191",
+    "publicadoEm": "2026-11-13T17:08:48.802Z"
+  },
+  "2026-11-13-stories-4": {
+    "tentativas": 1,
+    "erro": "{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"AoYzoSqln0mmxmj8BiMTIUM\"}"
   }
 }
